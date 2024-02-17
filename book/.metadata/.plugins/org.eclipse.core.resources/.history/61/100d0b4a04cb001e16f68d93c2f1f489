@@ -1,0 +1,9 @@
+package com.khit.book.repository;
+
+import org.springframework.data.jpa.repository.config.JpaRepositoryConfigExtension;
+
+import com.khit.book.entitiy.Book;
+
+public class BookRepository extends JpaRepositoryConfigExtension<Book, Long>{
+
+}

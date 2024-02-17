@@ -1,0 +1,7 @@
+package com.khit.book.repository;
+
+import com.khit.book.entitiy.Book;
+
+public class BookRepository extends JpaRepository<Book, Long>{
+
+}
